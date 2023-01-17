@@ -1,0 +1,64 @@
+#root{
+    background-color: #000;
+}
+body {
+    color: white;
+}
+.header_container
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid #3c3c3c;
+    width: -webkit-fill-available;
+}
+.instaLogo{
+    height: 70px;
+}
+.instaMessage{
+    height: 40px;
+}
+.post{
+    background:black;
+    color: white;
+    margin: 20px auto;
+    border-bottom: 1px solid #3c3c3c;
+}
+.postHeader{
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+}
+.postHeader, .postFooter{
+    padding: 10px;
+}
+.profileimage{
+    border-radius: 30px;
+    border: 3px solid blue;
+}
+.postpicture{
+    width: 100%;;
+}
+.postDetails {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+}
+.userdetail h3, .userdetail p {
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+}
+.postActions{
+    display: inline-flex;
+    gap: 12px;
+    width: 100%;
+}
+.postActions .svg-inline--fa {
+    height: 2em;
+}
+.back_link a {
+    color: white;
+    font-size: 30px;
+}
